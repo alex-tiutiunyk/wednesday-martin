@@ -1,0 +1,1379 @@
+@media (max-width: 1299px){
+    .book-box .holder{padding:0;}
+    .glasses-small{
+        width:300px;
+        height:115px;
+        background-size:300px 233px;
+    }
+    .glasses-small .circle{
+        width:99px;
+        height:98px;
+        left:9px;
+        top:9px;
+    }
+    .glasses-small .circle.right{
+        left:auto;
+        right:9px;
+    }
+    .glasses-small .circle img{
+        width:100%;
+        height:100%;
+    }
+    .book-box .img{
+        top:-24px;
+        left:57px;
+    }
+    .book-box .img.inverse{
+        left:70px;
+        top:-21px;
+    }
+    .book-box .img img{
+        width:102px;
+        height:auto;
+    }
+    .glasses-small .link-whatch{
+        font-size:10px;
+        line-height:11px;
+        padding:18px 0 0;
+    }
+    .glasses-small .link-whatch .fa{
+        font-size:15px;
+        margin:5px 0 0 5px;
+    }
+}
+@media (max-width: 991px){
+    /* Alex.Tiutiunyk start */
+    .social-wrappe{padding-bottom:6px;}
+    .social-wrapper .col-r,
+    .social-wrapper .col-l{
+        float:none;
+        width:auto;
+        max-width:656px;
+        margin:0 auto;
+    }
+    body.home .social-wrapper .col-l{
+        float:none;
+        width:auto;
+        background:#fbfbfb;
+        padding:40px 999px 25px;
+        margin:0 -999px;
+        max-width:none;
+    }
+    body.home .social-wrapper .col-l > *{
+        max-width:656px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .widget-book{margin:0 0 137px;}
+    .widget-book .widget-title{margin:0 0 56px;}
+    .book-box{
+        float:right;
+        margin:0;
+    }
+    .book-box.no-trailer{
+        width:auto;
+        padding:0;
+    }
+    .book-box:first-child{
+        float:left;
+        margin:0 0 0 15px;
+    }
+    .widget-book .book-box.no-trailer{margin:0 !important;}
+    .widget-book .book-box.no-trailer:first-child{margin:0 0 0 15px !important;}
+    .book-box .holder{padding:0;}
+    .glasses-small{margin:0;}
+    .tweets{padding:0 6px 18px 8px;}
+    .tweets li{padding:13px 97px 13px 26px;}
+    .tweets .fa{right:35px;}
+    .widget .btn{margin:0 0 73px -3px;}
+    /* Alex.Tiutiunyk end */
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .about-text header h1 {
+        font-size: 17px;
+    }
+
+    .connect .mezzanine-form .btn-primary {
+        width: 100%;
+    }
+
+    .content-intro header {
+        bottom: 27px;
+    }
+
+    .about-text .social {
+        width: 125px;
+    }
+
+    .watch iframe {
+        width: 262px;
+        height: 200px;
+    }
+
+    .talks-top-text {
+        padding-bottom: 0;
+    }
+
+    .content-intro .container,
+    .columns-block .container,
+    .talks-top-text.container,
+    .talks-row .container,
+    .connect .modal-dialog {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .columns-block .container .row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .search #field-autocomplete, .search #search-wrapper input {
+        font-size: 4em;
+        height: 165px;
+    }
+
+    .search #field-autocomplete {
+        top: 69px;
+    }
+
+    .link-trailer br {
+        display: none;
+    }
+
+    .leaves-left {
+        position: absolute;
+        left: -200px;
+        bottom: -17px;
+        width: 260px;
+    }
+
+    .leaves-right {
+        position: absolute;
+        right: -230px;
+        bottom: -17px;
+        width: 260px;
+    }
+
+    .leaves-middle {
+        position: absolute;
+        left: 25%;
+        bottom: -57px;
+        width: 180px;
+    }
+
+    .book-intro aside {
+        margin-top: 105px;
+    }
+
+    .columns-block .columns-row .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Alex.Tiutiunyk start */
+    .slideshow .slideset,
+    .slideshow .slide{height:638px;}
+    .social-wrapper{
+        padding-top:48px;
+        padding-bottom:4px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .widget-book{margin:0 0 100px;}
+    .book-box,
+    .book-box:first-child{
+        float:none;
+        margin:70px 8px 0 0;
+    }
+    .book-box:first-child{margin-top:0;}
+    .widget-book .widget-title{margin:0 0 59px;}
+    .tweets{
+        padding:0 17px 15px;
+        line-height:21px;
+    }
+    .widget-book .book-box.no-trailer{margin:70px 8px 0 0 !important;}
+    .widget-book .book-box.no-trailer:first-child{margin-top:0 !important;}
+    .tweets li{padding:14px 83px 19px 30px;}
+    .tweets h4{margin:0 0 2px;}
+    .widget-title{margin:0 0 22px;}
+    .tweets .fa{
+        right:29px;
+        margin:-13px 0 0;
+    }
+    .tweets li:first-child .fa{margin:-3px 0 0;}
+    .widget .btn{margin-bottom:82px;}
+
+    .content-intro header h1 {
+        font-size: 30px;
+        line-height: 1em;
+        margin-top: 0;
+    }
+
+    .content-intro header h2 {
+        font-size: 13px;
+    }
+
+    .talks-header .about-binocularis {
+        display: none;
+    }
+    .widget-entries .press-row .img-col{
+        float:none;
+        text-align:left;
+        margin:0 0 22px;
+    }
+    #mainNav + .panel-danger{
+        max-width:1000px;
+        margin-left:25px;
+        margin-right:25px;
+    }
+    body.about-section .about-header{height:192px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* side margins */
+    .talks-top-text,
+    .content-intro .container,
+    .talks-row .container,
+    .about .about-text,
+    .about .about-instagram {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #booksBuy .modal-dialog {
+        width: 458px;
+        margin: 15% auto 30px;
+    }
+
+    .no-trailer {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .book-intro{padding-top:135px;}
+    .book-intro article{padding:0 51px;}
+    .book-intro footer{padding:38px 0 0;}
+    .book-intro  aside{
+        text-align:center;
+        white-space:nowrap;
+        padding:81px 0 0;
+    }
+    .book-intro .book-box{
+        float:none;
+    }
+    .book-intro  aside > *{
+        display:inline-block;
+        vertical-align:top;
+    }
+    .book-intro .text-center{
+        margin:0 21px 0 32px !important;
+    }
+    .book-intro .link-trailer{margin-top:74px;}
+    .book-intro .link-trailer span{margin:12px 0 0;}
+    .book-intro.stepmonster{padding-bottom:509px;}
+    .stepmonster .fence-2{bottom:120px;}
+    .stepmonster .fence-1{bottom:337px;}
+    .stepmonster .houses{
+        margin:0 0 0 -33%;
+        height:164px;
+        bottom:350px;
+    }
+    .stepmonster .houses img{margin:0 20px;}
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .about-text header h2 br, .content-intro header h2 br {
+        display: none;
+    }
+
+    html,body{height:100%;}
+
+    .about-text {
+        margin-top: 313px;
+    }
+    .columns-block .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .columns-block .row {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .talks-header.content-intro .about-binocularis .eyepeace {
+        padding-right: 0;
+    }
+
+    .talks-row article header p {
+        margin-top: 1px;
+    }
+
+    .talks-row article > p, .talks-row article .editable-original > p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .content-intro .about-binocularis .eyepeace {
+        padding-right: 29px;
+    }
+
+    .books-buy h2 {
+        font-size: 30px;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
+    .stepmonster .grass .g2 {
+        display: inline;
+        width: 128px;
+        left: -60px;
+        bottom: -20px;
+    }
+
+    .stepmonster .grass .g3 {
+        display: inline;
+        width: 73px;
+        bottom: -10px;
+        right: -40px;
+    }
+
+    .book-intro .book-box .holder {
+        padding: 0;
+    }
+
+    .book-intro .glasses-small{
+        margin:25px auto 0;
+        background:url(../img/bg-binoculars.png) no-repeat;
+        width:412px;
+        height:157px;
+        position:relative;
+    }
+    .book-intro .glasses-small.green{background-position:0 -163px;}
+    .book-intro  .glasses-small .circle{
+        position:absolute;
+        width:135px;
+        height:133px;
+        border-radius:66px;
+        -webkit-border-radius:66px;
+        overflow:hidden;
+        top:12px;
+        left:13px;
+        background:#ffe400;
+    }
+    .book-intro  .glasses-small.green .circle{background:#3f9b8d;}
+    .book-intro  .glasses-small .circle.right{
+        left:auto;
+        right:13px;
+    }
+    .book-intro  .glasses-small .circle img{
+        border-radius:66px;
+        -webkit-border-radius:66px;
+    }
+    .book-intro  .book-box .holder:hover .glasses-small .circle.right img{opacity:0;}
+    .book-intro  .glasses-small .link-whatch{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:#32305e;
+        color:#ffe400;
+        text-transform:uppercase;
+        font-size:14px;
+        line-height:15px;
+        font-weight:bold;
+        padding:27px 0 0;
+        border-radius:66px;
+        -webkit-border-radius:66px;
+        visibility:hidden;
+    }
+
+    .book-intro .book-box .img{
+        position:absolute;
+        top:-8px;
+        left:78px;
+        box-shadow:0 2px 3px rgba(0,0,0,0.2);
+        -webkit-box-shadow:0 2px 3px rgba(0,0,0,0.2);
+        -moz-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    .book-intro .book-box .img img {
+        width: auto;
+    }
+
+    .book-intro .book-box .img.inverse{
+        left:95px;
+        top:-4px;
+        -moz-transform: rotate(3deg);
+        -webkit-transform: rotate(3deg);
+        -o-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+        transform: rotate(3deg);
+    }
+
+    .leaves-left {
+        position: absolute;
+        left: -270px;
+        bottom: -57px;
+        width: 410px;
+    }
+
+    .leaves-right {
+        position: absolute;
+        right: -300px;
+        bottom: -77px;
+        width: 430px;
+    }
+
+    .leaves-middle {
+        position: absolute;
+        left: 25%;
+        bottom: -128px;
+        width: 320px;
+    }
+
+    .book-intro .text-center {
+        margin-top: 90px;
+        margin-bottom: 150px;
+    }
+
+    .link-trailer {
+        width: 120px;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 79px;
+    }
+
+    .link-trailer span {
+        display: block;
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    .link-trailer img {
+        width: 18px;
+    }
+
+    .connect .mezzanine-form .input_id_field_1 input,
+    .connect .mezzanine-form .input_id_field_2 input,
+    .connect-section .mezzanine-form .input_id_field_1 input,
+    .connect-section .mezzanine-form .input_id_field_2 input{
+        width: 200px;
+    }
+
+    .connect .mezzanine-form, .connect-section .mezzanine-form {
+        width: 499px;
+        margin: 0 auto;
+    }
+
+    .connect .mezzanine-form .input_id_field_1,
+    .connect .mezzanine-form .input_id_field_2,
+    .connect-section .mezzanine-form .input_id_field_1,
+    .connect-section .mezzanine-form .input_id_field_2 {
+        display: inline-block;
+    }
+
+    .input_id_field_3, .input_id_field_4,
+    .input_id_field_5 {
+        width: 498px;
+    }
+
+    .connect .mezzanine-form .input_id_field_1,
+    .connect-section .mezzanine-form .input_id_field_1{
+        margin-right: 10px;
+    }
+
+    .columns-block .col {
+        display:inline-block;
+        vertical-align:top;
+        margin:0 -5px 0 0;
+        width: 50%;
+    }
+
+    .columns-header {
+        background-size: auto 150%;
+    }
+
+    .talks-header {
+        background-size: 800px;
+    }
+
+    .talks-row {
+        padding: 90px 0;
+    }
+
+    .talks-row.even .binocularis-left {
+        right: 0;
+        left: auto;
+    }
+
+    .talks-row .binocularis-left {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -138px;
+        width: 465px;
+    }
+
+    .talks-row article {
+        float: left;
+        padding-left: 350px;
+        position: relative;
+    }
+
+    .talks-row.even article {
+        padding-left: 0;
+        padding-right: 350px;
+    }
+
+    .talks-top-text p {
+        padding-right: 55%;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .content-intro.talks-header .about-binocularis {
+        display: block !important;
+        width: 355px;
+        margin-top: -137px;
+    }
+
+    .talks-row .binocularis-left .wrapper {
+        width: 355px;
+    }
+
+    .about-splashes {
+        right: -593px;
+        top: -201px;
+        width: 1030px;
+    }
+
+    .about-text header h1 {
+        font-size: 43px;
+        margin-bottom: 46px;
+    }
+
+    .about-text header h2 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .about-instagram ul li {
+        width: 25%;
+    }
+
+    .content-intro {
+        height: 335px;
+    }
+
+    .content-intro .about-binocularis {
+        width: 605px;
+        margin-top: -215px;
+    }
+
+    .navbar .logo img {
+        width: 331px;
+        height: 21px;
+        margin: 31px 0 0;
+    }
+    .book-intro.primates{
+        padding-bottom:261px;
+        background-position: 70% 100%
+        background-size: 1441px auto;
+    }
+
+}
+
+
+@media (max-width: 480px){
+    .widget-book{
+        margin-left:-3px;
+        margin-right:-3px;
+    }
+    .tweets{
+        padding-left:0;
+        padding-right:0;
+    }
+    .tweets li{
+        padding-left:15px;
+        padding-right:50px;
+    }
+    .tweets .fa{right:15px;}
+    .slideshow .slideset, .slideshow .slide{height:600px;}
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .navbar .navbar-header .icon-binocularis {
+        bottom: -15px;
+    }
+
+    .navbar-nav > li > a {
+        font-weight: 600;
+    }
+
+    .columns-block {
+        overflow: hidden;
+    }
+
+    .columns-block .row {
+        margin: 0 -50%;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+
+    .talks-row footer {
+        margin-top: 39px;
+    }
+
+    .talks-row article .social .fa {
+        font-size: 25px;
+        padding-top: 7px;
+    }
+
+    .talks-row article .social a {
+        width: 37px;
+        height: 37px;
+    }
+
+    .talks-row article header p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .talks-row article h2, .talks-row article h3 {
+        font-size: 18px;
+    }
+
+    .content-intro .about-binocularis {
+        width: 542px;
+    }
+
+    .content-intro .about-binocularis .eyepeace {
+        padding-right: 0;
+    }
+
+    .navbar {
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+    }
+
+    .nav > li#books > a, .nav > li#books > a[disabled] {
+        pointer-events: none;
+    }
+
+    .nav > li {
+        -webkit-transform: translateZ(1px);
+        transform: translateZ(1px);
+    }
+
+    .navbar-nav > li.active > a {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 6px;
+    }
+
+    #booksBuy .modal-dialog {
+        width: 684px;
+        margin: 15% auto 30px;
+    }
+
+    .books-buy .modal-content {
+        overflow: hidden;
+    }
+
+    .books-buy li {
+        float: left;
+        width: 50%;
+        margin: 12px 0;
+        height: 61px;
+        line-height: 61px;
+    }
+
+    .no-trailer {
+        padding-top: 0;
+    }
+
+    .stepmonster .grass .g3 {
+        right: 30%;
+    }
+
+    .stepmonster .grass .g2 {
+        left: 30px;
+    }
+
+    .stepmonster .grass .g4 {
+        width: 70px;
+        bottom: 80px;
+        display: inline;
+        right: 60%;
+    }
+
+    .stepmonster .grass .g5 {
+        width: 37px;
+        top: 10px;
+        display: inline;
+        right: 65px;
+    }
+
+    .stepmonster .grass .g6 {
+        width: 65px;
+        top: 152px;
+        left: -20px;
+        display: inline;
+    }
+
+    .leaves-left {
+        position: absolute;
+        left: -140px;
+        bottom: -57px;
+        width: 410px;
+    }
+
+    .leaves-right {
+        position: absolute;
+        right: -160px;
+        bottom: -77px;
+        width: 430px;
+    }
+
+    .leaves-middle {
+        position: absolute;
+        left: 40%;
+        bottom: -88px;
+        width: 380px;
+    }
+
+    .book-intro.primates {
+        background-size: 2000px;
+        background-position: center 100%;
+    }
+
+    .book-intro .text-center {
+        display: none;
+    }
+
+    .book-intro aside {
+        margin:42px 3% 0 0;
+        float:right;
+    }
+
+    .book-intro article {
+        float: left;
+        width: 51%;
+        padding:0 0 0 3%;
+    }
+
+    .book-intro {
+        padding-top: 175px;
+        padding-bottom: 300px;
+        margin-bottom: 140px;
+    }
+
+    .columns-block .col {
+        width: 33.3%;
+    }
+
+    body.about-section .about-header header{display:block;}
+
+    .talks-header {
+        background-size: 900px;
+    }
+
+    .talks-row article > p, .talks-row article .editable-original > p {
+        font-size: 14px;
+    }
+
+    .talks-row {
+        padding: 110px 0;
+    }
+
+    .talks-row article {
+        padding-left: 450px;
+    }
+
+    .talks-row article.even {
+        padding-right: 450px;
+    }
+
+    .talks-row .binocularis-left {
+        margin-top: -179px;
+    }
+
+    .talks-row .binocularis-left .wrapper {
+        width: 465px;
+    }
+
+    .content-intro.talks-header .about-binocularis {
+        width: 465px;
+        margin-top: -180px;
+    }
+
+    .talks-row {
+        padding: 135px 0;
+    }
+
+    .talks-top-text p {
+        padding-right: 450px;
+        font-size: 14px;
+    }
+
+    .about-text header {
+        display: none;
+    }
+
+    .about-text {
+        margin-top: 40px;
+    }
+
+    .about-instagram header {
+        position: absolute;
+        right: -480px;
+        top: 162px;
+    }
+
+    .about-splashes {
+        right: -735px;
+        top: -240px;
+        width: 1300px;
+    }
+
+    .about-instagram header h2 {
+        font-size: 28px;
+    }
+
+    .about-instagram header p {
+        font-size: 9px;
+    }
+
+    .about-instagram {
+        background: none;
+        position: relative;
+        overflow: visible;
+    }
+
+    .social-wrapper .col-l {
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+
+    .about .about-text, .about .about-instagram {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content-intro {
+        height: 362px;
+    }
+
+    .about-header.content-intro header {
+        display: block;
+    }
+
+    .small-binocularis {
+        background: url("../img/ico-binoculars.svg") no-repeat;
+        background-size: 60px;
+        display: block;
+        width: 60px;
+        height: 24px;
+        top: 70px;
+        left: 50%;
+        margin-left: -30px;
+        position: fixed;
+        z-index: 1070;
+    }
+
+    .about-section .content-intro .small-binocularis,
+    .press-section .content-intro .small-binocularis,
+    .talks-section .content-intro .small-binocularis {
+        background-image: url("../img/ico-binoculars-r.svg");
+    }
+
+    .about-section .content-intro .small-binocularis.empty,
+    .press-section .content-intro .small-binocularis.empty,
+    .talks-section .content-intro .small-binocularis.empty {
+        background-image: url("../img/ico-binoculars.svg");
+    }
+
+    .columns-section .content-intro .small-binocularis,
+    .books-section.primates-section .book-intro .small-binocularis {
+        background-image: url("../img/ico-binoculars-g.svg");
+    }
+
+    .columns-section .content-intro .small-binocularis.empty,
+    .books-section.primates-section .book-intro .small-binocularis.empty {
+        background-image: url("../img/ico-binoculars.svg");
+    }
+
+    .blog-section .content-intro .small-binocularis {
+        background-image: url("../img/ico-binoculars-p1.svg");
+    }
+
+    .blog-section .content-intro .small-binocularis.empty {
+        background-image: url("../img/ico-binoculars.svg");
+    }
+
+    .books-section.stepmonster-section .book-intro .small-binocularis {
+        background-image: url("../img/ico-binoculars-p2.svg");
+    }
+
+    .books-section.stepmonster-section .book-intro .small-binocularis.empty {
+        background-image: url("../img/ico-binoculars.svg");
+    }
+
+    .navbar .right-part .icon-search {
+        float: left;
+        margin-top: 32px;
+        margin-left: 30px;
+        margin-right: -15px;
+    }
+
+    .navbar .logo img {
+        margin: 0;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+    .navbar-nav>li>a {
+        border: none;
+    }
+
+    .navbar .navbar-header {
+        position: static;
+        height: auto;
+    }
+
+    .navbar .left-part, .navbar .right-part {
+        width: 50%;
+        float: left;
+    }
+
+    .navbar .right-part {
+        padding-left: 200px;
+    }
+
+    .navbar .left-part {
+        padding-right: 200px;
+    }
+
+    .navbar .left-part > ul {
+        float: right;
+    }
+
+    .navbar .logo {
+        position: absolute;
+        left: 50%;
+        margin-left: -165px;
+        top: 28px;
+        width: 331px;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .nav > li {
+        background: transparent;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+
+    .nav > li > a:hover,
+    .nav > li > a:focus,
+    .nav .open > a,
+    .nav .open > a:hover,
+    .nav .open > a:focus {
+        background: transparent;
+    }
+
+    .nav > li > a {
+        color: #fff;
+        font-size: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .dropdown-menu {
+        background: transparent;
+        width: 238px;
+        box-shadow: none;
+        left: -152%;
+        top: 65%;
+        border: none;
+        display: block;
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        opacity: 0;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+    }
+
+    .dropdown.active .dropdown-menu {
+        top: 114%;
+    }
+
+    .dropdown:hover .dropdown-menu, .navbar-nav .open .dropdown-menu {
+        height: 150%;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navbar-nav .open .dropdown-menu, .navbar-nav .dropdown-menu {
+        position: absolute;
+        padding: 7px 0 5px;
+    }
+
+    .navbar-nav .open .dropdown-menu > li, .navbar-nav .dropdown-menu > li {
+        margin-bottom: 1px;
+    }
+
+    .navbar-nav .open .dropdown-menu > li:first-child a:hover .circle,
+    .navbar-nav .dropdown-menu > li:first-child a:hover .circle,
+    .nav > li > .dropdown-menu > li > a:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .dropdown-menu > li > a {
+        padding: 10px 0;
+        border:none;
+        background: rgba(255,255,255,0.6);
+        text-transform: none;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .navbar-nav .open .dropdown-menu > li > a > .circle, .navbar-nav .dropdown-menu > li > a > .circle {
+        width: 14px;
+        height: 6px;
+        background: rgba(255,255,255,0.6);
+        position: absolute;
+        border-radius: 14px 14px 0 0;
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+    }
+
+    .dropdown-menu > li:first-child > a {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .dropdown-menu > li:last-child > a {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .search.modal.fade .modal-dialog {
+        max-width: 1120px;
+        padding: 0;
+    }
+    .book-intro{
+        padding-top:109px;
+    }
+    .book-intro footer{padding:38px 0 0;}
+    .stepmonster .fence-2{bottom:117px;}
+    .stepmonster .fence-1{bottom:334px;}
+    .stepmonster .houses{
+        bottom:350px;
+        width: 100%;
+        margin:0;
+    }
+    .stepmonster .houses img{margin:0 22px;}
+    .book-intro.primates{
+        padding-top:154px;
+        padding-bottom:301px;
+        background-position: 76% 100%;
+        background-size: 2070px auto;
+    }
+    .book-intro.stepmonster{padding-top:154px;}
+    .leaves-left{bottom:-18px;}
+    .leaves-right{
+        bottom:-46px;
+        right:-128px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .book-intro .holder:hover .glasses-small .circle.right img {
+        opacity: 1 !important;
+    }
+
+    .book-intro .link-whatch {
+        display: none;
+    }
+
+    .right-part .navbar-nav>li:last-child>a {
+        border-bottom: 0;
+    }
+
+    .navbar-nav .caret {
+        display:none;
+    }
+
+    .nav .open > .dropdown-menu > .active > a {
+        color: red;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1299px) {
+
+    .navbar {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .search.modal.fade .modal-dialog {
+        padding: 0 5%;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .navbar .left-part {
+        padding-right: 150px;
+    }
+
+    .navbar .right-part {
+        padding-left: 150px;
+    }
+
+    .navbar .logo img, .navbar .logo {
+        width: 230px;
+    }
+
+    .navbar .logo {
+        margin-left: -115px;
+    }
+
+    .navbar .navbar-header .icon-search {
+        display: none;
+    }
+
+    .about .social-wrapper .col-l {
+        width: 43%;
+        float: left;
+    }
+
+    .content-intro .about-binocularis {
+        width: 395px;
+        margin-top: -151px;
+    }
+
+    .dropdown-menu {
+        left: -222%;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: 398px;
+        background: #fff;
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 767px) {
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: 238px;
+        background: #fff;
+    }
+}
+@media only screen and (min-width : 480px) and (max-width : 767px){
+    .book-intro{padding-top:111px;}
+    .book-intro.primates{background-size: 1100px auto;}
+    .book-intro article{padding:0 44px;}
+    .book-intro .book-box{
+        float:none;
+        display:inline-block;
+        vertical-align:top;
+        margin:0 0 50px !important;
+    }
+    .book-intro .book-box .holder{
+        display:block;
+        max-width:360px;
+        margin:0 auto;
+    }
+    .book-intro .text-center{
+        display:block;
+        vertical-align:top;
+        margin:0;
+    }
+    .book-intro aside{
+        text-align:center;
+    }
+    .book-intro .book-box .img{
+        left:67px;
+        top:-29px;
+    }
+    .book-intro .book-box .img img{width:122px;}
+    .book-intro.stepmonster{padding-bottom:472px;}
+    .stepmonster .fence-1{bottom:310px;}
+    .stepmonster .houses{
+        margin:0 0 0 -26%;
+        width:126%;
+    }
+    .book-intro .glasses-small .circle{
+        height:117px;
+        width:119px;
+        left:11px;
+        top:13px;
+    }
+    .book-intro .glasses-small .circle.right{
+        right:11px;
+        left:auto;
+    }
+    .book-intro article footer {
+        margin-top: 42px;
+    }
+    .book-intro .glasses-small{
+        height:140px;
+        width:360px;
+        margin:0 auto;
+    }
+}
+@media (max-width: 479px){
+    .widget-book{
+        margin-left:-3px;
+        margin-right:-3px;
+    }
+    .tweets{
+        padding-left:0;
+        padding-right:0;
+    }
+    .tweets li{
+        padding-left:15px;
+        padding-right:50px;
+    }
+    .tweets .fa{right:15px;}
+    .slideshow .slideset, .slideshow .slide{height:600px;}
+    .book-intro .glasses-small,
+    .widget-book .glasses-small{
+        width:260px;
+        height:104px;
+        background-size:100% 200%;
+    }
+    .glasses-small.green{background-position:0 102%;}
+    .book-intro .book-box .img img,
+    .widget-book .book-box .img img{width:86px;}
+    .book-intro .book-box .img,
+    .widget-book .book-box .img{
+        left:91px;
+        top:-19px;
+    }
+    .book-intro .glasses-small .circle,
+    .widget-book .glasses-small .circle{
+        height:87px;
+        width:86px;
+        top:8px;
+        left:8px;
+    }
+    .glasses-small .circle.right,
+    .widget-book  .circle.right{
+        left:auto;
+        right:8px;
+    }
+    .book-intro aside{margin-top:64px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1025px){
+    .talks-row.even article {
+        padding-right: 470px;
+    }
+
+    .talks-row article {
+        padding-left: 470px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .talks-row article .social {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 37px;
+    }
+
+    .talks-row article .social li {
+        padding: 5px 0;
+    }
+
+    .talks-row article > p, .talks-row article .editable-original > p {
+        padding-right: 100px;
+    }
+
+    .talks-row.even article .social {
+        right: auto;
+        left: 0;
+        margin: 0;
+    }
+
+    .talks-row.even article {
+        padding-left: 100px;
+    }
+
+    .talks-row .social {
+        float: right;
+    }
+
+    .blog-header {
+        background-size: 100% !important;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: 1024px;
+        background: #fff;
+    }
+
+    .navbar-collapse.in {
+        height: 1024px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .style button.close {
+        right: 21px;
+    }
+}
+@media only screen and (min-width: 1350px){
+    html,body{height:100%;}
+    .book-intro.primates{
+        padding-top:220px;
+        background-position: 50% 100%;
+        background-size: 100% auto;
+        min-height:100%;
+    }
+    .book-intro.stepmonster{
+        padding-top:220px;
+        min-height:100%;
+    }
+}

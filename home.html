@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wednesday Martin</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awecome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!--<link href="css/slideshow.css" rel="stylesheet">-->
+    <link href="css/slideshow.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7757312/713124/css/fonts.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="modal fade style search" id="siteSearch" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <img src="img/ico-binoculars.svg" alt="" width="60" height="23" class="icon-binocularis"/>
+
+        <div id="search-wrapper">
+            <form id="search-form" action="/search/" method="get">
+                <label>Search anything by typing</label><label id="progress-dots">...</label>
+                <div id="field-autocomplete">book</div>
+                <input autocomplete="off" spellcheck="false" id="field" name="q">
+            </form>
+        </div>
+        <div class="search-results">
+            <article>
+                <h4><a href="#">Step Monster - Book</a></h4>
+                <em><a href="#">http://wednesdaymartin.com/stepmoster</a></em>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci cumque dicta, distinctio, dolor dolorem doloribus eos et expedita fugiat harum incidunt iste, non obcaecati quasi recusandae similique tenetur voluptatem?</p>
+            </article>
+            <article>
+                <h4><a href="#">Step Monster - Book</a></h4>
+                <em><a href="#">http://wednesdaymartin.com/stepmoster</a></em>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci cumque dicta, distinctio, dolor dolorem doloribus eos et expedita fugiat harum incidunt iste, non obcaecati quasi recusandae similique tenetur voluptatem?</p>
+            </article>
+            <article>
+                <h4><a href="#">Step Monster - Book</a></h4>
+                <em><a href="#">http://wednesdaymartin.com/stepmoster</a></em>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci cumque dicta, distinctio, dolor dolorem doloribus eos et expedita fugiat harum incidunt iste, non obcaecati quasi recusandae similique tenetur voluptatem?</p>
+            </article>
+            <div class="text-center">
+                <ul class="pagination">
+                    <li class="arrow-prev"><span></span></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li class="arrow-next"><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-fixed-top" role="navigation" id="mainNav">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a href="#" class="logo"><img src="img/logo.svg" alt=""/></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-1"></button>
+            <img src="img/ico-binoculars.svg" alt="" width="60" height="23" class="icon-binocularis"/>
+            <a href="#" class="icon-search hidden-lg" data-toggle="modal" data-target="#siteSearch"></a>
+        </div>
+        
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapse-1">
+            <div class="left-part">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Books <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action<span class="circle"></span></a></li>
+                            <li><a href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Coulumns</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="right-part">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Press &amp; Events</a></li>
+                    <li><a href="#">Talks</a></li>
+                    <li><a href="#">Connect</a></li>
+                </ul>
+                <a href="#" class="icon-search" data-toggle="modal" data-target="#siteSearch"></a>
+            </div>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="slideshow">
+    <div class="slideset">
+        <section class="slide slide-landing">
+            <div class="glasses-box">
+                <img src="img/binocularis.png" class="glasses" alt=""/>
+                <div class="glasses"></div>
+                <div class="circle">
+                    <div class="splash-2"><img src="img/img-splash-2.png" alt=""></div>
+                    <div class="txt-holder">
+                        <div class="txt">
+                            <img src="img/wm-home.svg" alt="Image description" class="slide-logo">
+                            <em class="slogan">A cultural critic at large <br>in high heels</em>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle right">
+                    <img src="img/img-face.jpg" alt="" class="img">
+                </div>
+            </div>
+            <em class="slogan">A cultural critic at large <br>in high heels</em>
+            <div class="btn-wrapper">
+                <a href="#" class="btn btn-default">WHO'S WEDNESDAY?</a>
+            </div>
+            <div class="splash-1"><img src="img/img-splash-1.svg" alt=""></div>
+        </section>
+        <section class="slide slide-primates">
+            <em class="date">COMING IN 2015</em>
+            <div class="glasses-box">
+                <img src="img/binocularis.png" class="glasses" alt=""/>
+                <div class="glasses"></div>
+                <div class="circle">
+                    <div class="splash-7"><img src="img/img-splash-7-1.png" alt=""></div>
+                    <div class="splash-8"><img src="img/img-splash-8.png" alt=""></div>
+                    <div class="splash-8-2"><img src="img/img-splash-8-2.png" alt=""></div>
+                    <div class="txt-holder">
+                        <div class="txt primates">
+                            PRIMATES<span class="of">OF</span>PARK AVENUE
+                            <em class="date">COMING IN 2015</em>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle right">
+                    <div class="splash-6"><img src="img/img-splash-6.png" alt=""></div>
+                    <div class="splash-9"><img src="img/img-splash-9.png" alt=""></div>
+                </div>
+            </div>
+            <h1 class="title-primates">PRIMATES<span class="of">OF</span>PARK AVENUE</h1>
+            <div class="btn-wrapper">
+                <a href="#" class="btn btn-default">UNCOVER MORE</a>
+            </div>
+            <div class="splash-3"><img src="img/img-splash-3.png" alt=""></div>
+            <div class="splash-4"><img src="img/img-splash-4.svg" alt=""></div>
+            <div class="splash-5"><img src="img/img-splash-5.svg" alt=""></div>
+        </section>
+        <section class="slide slide-stepmonster">
+            <div class="glasses-box">
+                <img src="img/binocularis.png" class="glasses" alt=""/>
+                <div class="glasses"></div>
+                <div class="circle">
+                    <img src="img/img05.svg" alt="" class="img">
+                </div>
+                <div class="circle right">
+                    <div class="splash-13"></div>
+                    <div class="txt-holder">
+                        <div class="txt best">
+                            <span class="heading">BEST SELLING BOOK</span>
+                            STEPMONSTER
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="txt-holder">
+                <div class="txt best">
+                    <span class="heading">BEST SELLING BOOK</span>
+                    STEPMONSTER
+                </div>
+            </div>
+            <div class="btn-wrapper">
+                <a href="#" class="btn btn-default">UNCOVER MORE</a>
+            </div>
+            <div class="splash-10"></div>
+            <div class="splash-11"></div>
+            <div class="glass-1"><img src="img/bg-glass-1.svg" alt=""></div>
+            <div class="glass-2"><img src="img/bg-glass-1.svg" alt=""></div>
+            <div class="glass-3"><img src="img/bg-glass-1.svg" alt=""></div>
+            <div class="glass-4"><img src="img/bg-glass-1.svg" alt=""></div>
+            <div class="glass-5"><img src="img/bg-glass-1.svg" alt=""></div>
+            <div class="glass-6"><img src="img/bg-glass-1.svg" alt=""></div>
+            <div class="splash-12-1"></div>
+            <div class="splash-12-2"></div>
+            <div class="splash-12-3"></div>
+            <div class="splash-12-4"></div>
+            <div class="splash-12-5"></div>
+            <div class="splash-12-6"></div>
+            <div class="splash-12-7"></div>
+            <div class="splash-12-8"></div>
+            <div class="splash-12-9"></div>
+            <div class="splash-12-10"></div>
+        </section>
+        <section class="slide slide-socialize">
+            <div class="txt-holder top">
+                <div class="txt title">FOLLOW WEDNESDAY <br>ON TWITTER</div>
+            </div>
+            <div class="glasses-box">
+                <img src="img/binocularis.png" class="glasses" alt=""/>
+                <div class="glasses"></div>
+                <div class="splash-16"><img src="img/img-butterfly-1.png" alt=""></div>
+                <div class="splash-17"><img src="img/img-butterfly-5.png" alt=""></div>
+                <div class="splash-18"><img src="img/img-butterfly-3.png" alt=""></div>
+                <div class="splash-19"><img src="img/img-butterfly-4.png" alt=""></div>
+                <div class="splash-21"><img src="img/img-butterfly-6.png" alt=""></div>
+                <div class="splash-20"><img src="img/img-butterfly-2.png" alt=""></div>
+                <div class="splash-22"><img src="img/img-cloud-3.png" alt=""></div>
+                <div class="splash-23"><img src="img/img-cloud-4.png" alt=""></div>
+                <div class="splash-24"><img src="img/img-cloud-5.png" alt=""></div>
+                <div class="circle">
+                    <div class="splash-25"><img src="img/img-cloud-5.png" alt=""></div>
+                    <div class="splash-28"><img src="img/img-cloud-3.png" alt=""></div>
+                    <span class="mask"></span>
+                    <div class="txt-holder">
+                        <div class="txt title">FOLLOW <br>WEDNESDAY <br>ON TWITTER</div>
+                    </div>
+                </div>
+                <div class="circle right">
+                    <div class="splash-26"><img src="img/img-cloud-3.png" alt=""></div>
+                    <div class="splash-27"><img src="img/img-cloud-4.png" alt=""></div>
+                    <span class="mask"></span>
+                    <div class="txt-holder">
+                        <div class="txt">@WEDNESDAYMARTIN</div>
+                    </div>
+                </div>
+            </div>
+            <div class="txt-holder bottom">
+                <div class="txt">@WEDNESDAYMARTIN</div>
+            </div>
+            <div class="btn-wrapper">
+                <a href="#" class="btn btn-default">FOLLOW</a>
+            </div>
+            <div class="splash-14"><img src="img/img-cloud-1.png" alt=""></div>
+            <div class="splash-15"><img src="img/img-cloud-2.png" alt=""></div>
+        </section>
+    </div>
+    <div class="pagination"></div>
+</div>
+<div class="container social-wrapper" id="red-anchor">
+    <div class="col-r">
+        <section class="widget widget-book">
+            <h2 class="widget-title">BOOKS &amp; TALKS</h2>
+            <div class="widget-content">
+                <div class="book-box">
+                    <div class="holder">
+                        <div class="glasses-small">
+                            <div class="circle"><img src="img/img01.jpg" alt="Image description" width="135" height="133"></div>
+                            <div class="circle right">
+                                <img src="img/img02.jpg" alt="Image description" width="135" height="133">
+                                <a href="#" class="link-whatch">WATCH<br>BOOK<br>TRAILER<i class="fa fa-play"></i></a>
+                            </div>
+                        </div>
+                        <div class="img"><a href="#"><img src="img/img-boock01.jpg" alt="Image description" width="140" height="214"></a></div>
+                    </div>
+                </div>
+                <div class="book-box">
+                    <div class="holder">
+                        <div class="glasses-small green">
+                            <div class="circle"><img src="img/img03.jpg" alt="Image description" width="135" height="133"></div>
+                            <div class="circle right">
+                                <img src="img/img04.jpg" alt="Image description" width="135" height="133">
+                                <a href="#" class="link-whatch">WATCH<br>BOOK<br>TRAILER<i class="fa fa-play"></i></a>
+                            </div>
+                        </div>
+                        <div class="img inverse"><a href="#"><img src="img/img-boock02.jpg" alt="Image description" width="140" height="214"></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="col-l">
+        <section class="widget">
+            <h2 class="widget-title">LET’S SOCIALIZE</h2>
+            <div class="widget-content">
+                <ul class="list-unstyled tweets">
+                    <li class="tweet">
+                        <h4><a href="#">@WednesdayMartin</a></h4>
+                        <p><span class="line">Wondering what day it is? @edieparker knows! Naturally I am fond of this...</span> #fashion <a href="#">http://instagram.com/p/o1NS4EtgzZ/</a></p>
+                        <a href="#" class="fa fa-retweet"></a>
+                    </li>
+                    <li class="tweet">
+                        <h4><a href="#">@WednesdayMartin</a></h4>
+                        <p><span class="line">Wondering what day it is? @edieparker knows! Naturally I am fond of this...</span> #fashion <a href="#">http://instagram.com/p/o1NS4EtgzZ/</a></p>
+                        <a href="#" class="fa fa-retweet"></a>
+                    </li>
+                    <li class="tweet">
+                        <h4><a href="#">@WednesdayMartin</a></h4>
+                        <p><span class="line">Wondering what day it is? @edieparker knows! Naturally I am fond of this...</span> #fashion <a href="#">http://instagram.com/p/o1NS4EtgzZ/</a></p>
+                        <a href="#" class="fa fa-retweet"></a>
+                    </li>
+                    <li class="tweet">
+                        <h4><a href="#">@WednesdayMartin</a></h4>
+                        <p><span class="line">Wondering what day it is? @edieparker knows! Naturally I am fond of this...</span> #fashion <a href="#">http://instagram.com/p/o1NS4EtgzZ/</a></p>
+                        <a href="#" class="fa fa-retweet"></a>
+                    </li>
+                </ul>
+                <footer class="text-center">
+                    <a href="#" class="btn btn-default">VIEW MORE</a>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </footer>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <img src="img/logo-red.svg" alt="" class="small-logo"/>
+        <p>A cultural clinic at large in high heels</p>
+        <img src="img/ico-binoculars-red.svg" alt="" class="binocularis"/>
+    </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/hammer.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/my.js"></script>
+</body>
+</html>
